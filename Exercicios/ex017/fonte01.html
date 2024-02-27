@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas 
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px = 1em
+
+            Recomendação de PX e EM
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /*lighter normal bold bolder*/
+            font-style: normal;
+            text-decoration: none;   
+        }
+
+        h1 {
+            /*Shorthand
+            
+            - font style -> font-weight -> font-size ->font-family 
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bold 3em Arial;
+        }
+        
+        h2 {
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt iusto perferendis, iste at, voluptas eveniet assumenda facere itaque hic reprehenderit quasi doloremque fugit, aut laboriosam et accusamus impedit nulla dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestiae officia perferendis odit quasi omnis, necessitatibus aperiam nemo voluptatum natus iste sunt illo adipisci, nostrum voluptas quas commodi hic sapiente!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore exercitationem facilis, cupiditate porro quidem beatae, mollitia ut rerum doloremque vero quis magni blanditiis velit corrupti suscipit? Ea, est odit.</p>
+    <h2>Subtitulo do Texto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consectetur quibusdam veritatis placeat delectus repellat ab rem nulla illo similique mollitia fugiat reiciendis sunt cupiditate odit sint ad, consequatur culpa.</p>
+</body>
+</html>
