@@ -4,3 +4,5 @@
  Aprendendo com o Curso em Video - Professor Guanabara <br>
 
  Estou aprendendo a criar sites e agora vou gerenciar meus respositórios
+
+ <a href="leofront-end.github.io">Clique aqui para executar o exercicio 001</a>
