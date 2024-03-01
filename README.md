@@ -5,4 +5,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus respositórios
 
- <a href="https://leofront-end.github.io/Html-CSS/Exercicios/ex001">Clique aqui para executar o exercicio 001</a>
+ <a href="https://leofront-end.github.io/Html-CSS/Exercicios/ex001/index.html">Clique aqui para executar o exercicio 001</a>
