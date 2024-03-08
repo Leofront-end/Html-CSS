@@ -6,6 +6,28 @@
     <title>Formulario</title>
 </head>
 <body>
-    
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="post">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#ffffff">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de satisfação
+                <input type="range" name="nivel" id="inivel" min="1" max="7" value="7" >
+            </label>
+        </p>
+        <!--O tipo File precisa usar o metodo post-->
+        <p>
+            <label for="ifoto">Foto do perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
